@@ -1,35 +1,64 @@
-#busqueda
+main, body
 {
-    margin: auto;
-    width: 40%;
-    height: 10%;
-    margin-top: 2%;
-}
-#rectangulo-rojo
-{
-    position: relative;
-    margin-left: 0%;
-    background-color: red;
-    width: 75%;
-    height: 100%;
-}
-#cuadrado-negro
-{
-    margin-left: 75%;
-    background-color: black;
-    height: 100%;
-    width: 25%;
-}
-#rectangulo-blanco
-{
-    margin-top: 0%;
-    margin-left: auto;
-    width: 70%;
-    height: 50%;
-    background-color: white;
+    height: 100vh;
 }
 
-html, body
+#busqueda 
+{
+    display: flex;  /* Usamos flexbox para organizar los elementos en fila */
+    justify-content: space-between;  /* Deja espacio entre los elementos */
+    align-items: center;  /* Alinea verticalmente los elementos */
+    width: 60%;  /* Define el ancho del contenedor */
+    height: 8%;  /* Define la altura del contenedor (ahora es 200px para mejor visualización) */
+    margin: auto;
+    margin-top: 2%;
+}
+
+#rectangulo-rojo 
+{
+    background-color: red;
+    width: 80%;  /* El ancho del rectángulo rojo */
+    height: 100%;  /* La altura del rectángulo rojo */
+    position: relative;
+}
+
+#rectangulo-blanco {
+    background-color: white;
+    width: 90%;  /* Ancho del rectángulo blanco */
+    height: 50%;  /* Altura del rectángulo blanco */
+    position: absolute;
+    top: 25%;  /* Centra el rectángulo blanco verticalmente en el rectángulo rojo */
+    left: 5%;  /* Centra el rectángulo blanco horizontalmente en el rectángulo rojo */
+}
+
+#cuadrado-negro 
+{
+    background-color: black;
+    width: 20%;  /* Ancho del cuadrado negro */
+    height: 100%;  /* Altura del cuadrado negro */
+}
+
+#barras-grises
+{
+    display: flex;
+    justify-content: space-between;
+    height: 1%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.barras-grises
 {
     height: 100%;
+    background-color: grey;
+    width: 15%;
+}
+
+#cuadrado-celeste
+{
+    margin-top: 5%;
+    background-color: lightblue;
+    width: 100%;
+    height: 30%;
 }
