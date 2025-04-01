@@ -1,0 +1,35 @@
+#busqueda
+{
+    margin: auto;
+    width: 40%;
+    height: 10%;
+    margin-top: 2%;
+}
+#rectangulo-rojo
+{
+    position: relative;
+    margin-left: 0%;
+    background-color: red;
+    width: 75%;
+    height: 100%;
+}
+#cuadrado-negro
+{
+    margin-left: 75%;
+    background-color: black;
+    height: 100%;
+    width: 25%;
+}
+#rectangulo-blanco
+{
+    margin-top: 0%;
+    margin-left: auto;
+    width: 70%;
+    height: 50%;
+    background-color: white;
+}
+
+html, body
+{
+    height: 100%;
+}
