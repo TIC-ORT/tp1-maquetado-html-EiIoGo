@@ -5,44 +5,44 @@ main, body
 
 #busqueda 
 {
-    display: flex;  /* Usamos flexbox para organizar los elementos en fila */
-    justify-content: space-between;  /* Deja espacio entre los elementos */
-    align-items: center;  /* Alinea verticalmente los elementos */
-    width: 60%;  /* Define el ancho del contenedor */
-    height: 8%;  /* Define la altura del contenedor (ahora es 200px para mejor visualización) */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 8%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 #rectangulo-rojo 
 {
     background-color: red;
-    width: 80%;  /* El ancho del rectángulo rojo */
-    height: 100%;  /* La altura del rectángulo rojo */
+    width: 80%;
+    height: 100%;
     position: relative;
 }
 
 #rectangulo-blanco {
     background-color: white;
-    width: 90%;  /* Ancho del rectángulo blanco */
-    height: 50%;  /* Altura del rectángulo blanco */
+    width: 90%;
+    height: 30%;
     position: absolute;
-    top: 25%;  /* Centra el rectángulo blanco verticalmente en el rectángulo rojo */
-    left: 5%;  /* Centra el rectángulo blanco horizontalmente en el rectángulo rojo */
+    top: 35%;
+    left: 5%;
 }
 
 #cuadrado-negro 
 {
     background-color: black;
-    width: 20%;  /* Ancho del cuadrado negro */
-    height: 100%;  /* Altura del cuadrado negro */
+    width: 20%;
+    height: 100%;
 }
 
 #barras-grises
 {
     display: flex;
     justify-content: space-between;
-    height: 1%;
+    height: 2%;
     width: 90%;
     margin-top: 5%;
     margin-left: 5%;
@@ -51,8 +51,8 @@ main, body
 .barras-grises
 {
     height: 100%;
-    background-color: grey;
-    width: 15%;
+    background-color: lightgrey;
+    width: 20%;
 }
 
 #cuadrado-celeste
@@ -60,5 +60,71 @@ main, body
     margin-top: 5%;
     background-color: lightblue;
     width: 100%;
-    height: 30%;
+    height: 35%;
+    position: relative;
+}
+
+#cuadrado-azul
+{
+    position: absolute;
+    width: 25%;
+    height: 75%;
+    background-color: skyblue;
+    top: 12.5%;
+    left: 10%;
+}
+
+.linea-punteo
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 10%;
+}
+
+.cuadradito-celeste
+{
+    width: 15%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+.linea-blanca-punteo
+{
+    width: 75%;
+    height: 100%;
+    background-color: white;
+}
+
+#texto-grande
+{
+    position: absolute;
+    width: 50%;
+    height: 75%;
+    left: 45%;
+    top: 12.5%;
+}
+
+#barra-gris-grande
+{
+    width: 100%;
+    height: 15%;
+    background-color: darkslategray;
+}
+
+.barras-blancas-grandes
+{
+    margin-top: 5%;
+    width: 100%;
+    height: 5%;
+    background-color: white;
+}
+
+#barra-blanca-mediana
+{
+    margin-left: 20%;
+    width: 60%;
 }
