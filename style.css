@@ -17,8 +17,8 @@ main, body
 
 #rectangulo-rojo 
 {
-    background-color: red;
-    width: 87%;
+    background-color: #ff9978;
+    width: 100%;
     height: 100%;
     position: relative;
 }
@@ -34,7 +34,7 @@ main, body
 
 #cuadrado-negro 
 {
-    background-color: black;
+    background-color: #656a73;
     aspect-ratio: 1;
     height: 100%;
 }
@@ -52,14 +52,14 @@ main, body
 .barras-grises
 {
     height: 100%;
-    background-color: lightgrey;
+    background-color: #cccbca;
     width: 20%;
 }
 
 #cuadrado-celeste
 {
     margin-top: 5%;
-    background-color: lightblue;
+    background-color: #c4edf1;
     width: 100%;
     height: 35%;
     position: relative;
@@ -68,9 +68,9 @@ main, body
 #cuadrado-azul
 {
     position: absolute;
-    width: 25%;
+    aspect-ratio: 1;
     height: 75%;
-    background-color: skyblue;
+    background-color: #91d3d9;
     top: 12.5%;
     left: 10%;
 }
@@ -90,7 +90,7 @@ main, body
 {
     width: 15%;
     height: 100%;
-    background-color: lightblue;
+    background-color: #c4edf1;
 }
 
 .linea-blanca-punteo
@@ -113,7 +113,7 @@ main, body
 {
     width: 100%;
     height: 15%;
-    background-color: darkslategray;
+    background-color: #656a73;
 }
 
 .barras-blancas-grandes
@@ -145,12 +145,86 @@ main, body
 {
     height: 100%;
     width: 25%;
-    background-color: yellow;
 }
 
 .tarjeta-cuadrado
 {
     width: 100%;
     aspect-ratio: 1;
-    background-color: green;
+}
+
+.texto-chico
+{
+    width: 100%;
+    height: 34%;
+    position: relative;
+}
+
+.barra-negra-chica
+{
+    width: 100%;
+    height: 10%;
+    background-color: #656a73;
+    position: absolute;
+    top: 20%;
+}
+
+.barra-gris-chica
+{
+    width: 100%;
+    height: 10%;
+    background-color: #cccbca;
+    position: absolute;
+    top: 50%;
+}
+
+#mas-chica
+{
+    width: 50%;
+}
+
+.mas-chica
+{
+    width: 50%;
+    top: 80%;
+}
+
+#texto-tarjeta-roja
+{
+    position: absolute;
+    width: 70%;
+    aspect-ratio: 1;
+    left: 15%;
+    top: 15%;
+}
+
+#texto-rojo-oscuro
+{
+    width: 100%;
+    height: 20%;
+    background-color: #ed6d47;
+}
+
+.texto-tarjeta-blanco
+{
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    margin-top: 10%;
+}
+
+#tarjeta-roja
+{
+    background-color: #ff9978;
+    position: relative;
+}
+
+#tarjeta-celeste
+{
+    background-color: #abe0e5;
+}
+
+#tarjeta-amarilla
+{
+    background-color: #ffc86d;
 }
