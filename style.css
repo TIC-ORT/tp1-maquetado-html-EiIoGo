@@ -1,5 +1,6 @@
 main, body
 {
+    margin: 0px;
     height: 100vh;
 }
 
@@ -17,7 +18,7 @@ main, body
 #rectangulo-rojo 
 {
     background-color: red;
-    width: 80%;
+    width: 87%;
     height: 100%;
     position: relative;
 }
@@ -34,7 +35,7 @@ main, body
 #cuadrado-negro 
 {
     background-color: black;
-    width: 20%;
+    aspect-ratio: 1;
     height: 100%;
 }
 
@@ -131,12 +132,25 @@ main, body
 
 #tarjetitas
 {
+    margin: auto;
     margin-top: 5%;
+    width: 75%;
     height: 30%;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .tarjetitas
 {
-    
+    height: 100%;
+    width: 25%;
+    background-color: yellow;
+}
+
+.tarjeta-cuadrado
+{
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: green;
 }
