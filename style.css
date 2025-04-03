@@ -128,3 +128,15 @@ main, body
     margin-left: 20%;
     width: 60%;
 }
+
+#tarjetitas
+{
+    margin-top: 5%;
+    height: 30%;
+    background-color: red;
+}
+
+.tarjetitas
+{
+    
+}
